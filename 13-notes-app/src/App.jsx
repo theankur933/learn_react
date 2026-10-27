@@ -42,7 +42,7 @@ const App = () => {
         <input
           type="text"
           placeholder='Enter Notes Heading'
-          className='px-5 w-full font-medium py-2 border-2 outline-none rounded '
+          className='px-5 w-full font-medium py-2 border-2 outline-none rounded' required
           value={title}
           onChange={(e) => {
             setTitle(e.target.value)
@@ -52,7 +52,7 @@ const App = () => {
         {/* DETAILED VALA INPUT  */}
         <textarea
           type="text"
-          className='px-5 w-full font-medium h-32 py-2 flex items-start flex-row border-2 outline-none  rounded '
+          className='px-5 w-full font-medium h-32 py-2 flex items-start flex-row border-2 outline-none rounded' required
           placeholder='Write Details here'
           value={details}
           onChange={(e) => {
